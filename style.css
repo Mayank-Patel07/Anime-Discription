@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Mochiy+Pop+P+One&family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Luxurious+Roman&family=Mochiy+Pop+P+One&family=Sedgwick+Ave&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    color: rgb(14, 11, 11);
+    background-blend-mode: darken;
+    position: relative;
+}
+
+.nav ul {
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-decoration: none;
+}
+
+
+
+.nav::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(80, 75, 75);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.70;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 440px;
+
+}
+
+.main::before {
+    content: "";
+    position: absolute;
+    background: url(wallpaperflare.com_wallpaper.jpg) no-repeat center center/cover;
+    width: 100%;
+    /* height: 50vh; */
+    height: 490px;
+    z-index: -1;
+    opacity: 0.75;
+    top: -12px;
+    left: 0px;
+}
+
+.nav ul li {
+    margin: 7px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 5px 5px;
+
+}
+
+.logo {
+    width: 90px;
+}
+
+.logo img {
+    margin-top: 2px;
+    width: 75px;
+    height: 57px;
+    border-radius: 50px;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.elem {
+    display: flex;
+}
+
+.burger {
+    cursor: pointer;
+}
+
+.lin {
+    background-color: rgb(14, 12, 12);
+    width: 30px;
+    height: 3px;
+    margin: 3px 3px;
+    border-radius: 2px;
+    display: none;
+}
+
+.bt {
+    margin: auto;
+    margin-right: 24px
+}
+
+#text {
+    height: 25px;
+    width: 183px;
+    border-radius: 12px;
+    background-color: #dbd2c8;
+    text-align: right;
+}
+
+.bt2 {
+    height: 18px;
+    width: 51px;
+    border-radius: 12px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.heading {
+    font-family: 'Lobster', cursive;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+.img img {
+    width: 136px;
+    height: 88px;
+    border-radius: 20px;
+    opacity: 0.75;
+    display: flex;
+    margin: 8px;
+    position: relative;
+    top: 150px;
+    left: -24px;
+    cursor: pointer;
+}
+
+#Categories {
+    display: flex;
+    flex-direction: column;
+    /* position: relative;
+    top: 71px; */
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.naruto {
+    margin: 4px;
+    width: 45%;
+    border: 4px solid #576472;
+    border-radius: 15px;
+}
+
+.naruto img {
+    height: 149px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+
+.naruhead {
+    font-family: 'Luxurious Roman', cursive;
+    /* background: #1D2526;
+background: linear-gradient(to right, #1D2526 0%, #8FB3C2 58%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
+
+    background: #25CC0F;
+    background: linear-gradient(to bottom right, #25CC0F 0%, #9E3212 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* 
+background: #F0B7A1;
+background: linear-gradient(to right, #F0B7A1 0%, #8C3310 50%, #752201 51%, #BF6E4E 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
+
+
+}
+
+.Dragon img {
+    height: 149px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+.narutop {
+    width: 100%;
+}
+
+#Request {
+    background-color: silver;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.input {
+
+    margin: 9px;
+}
+
+/* 
+.inputl {
+    margin: 6px;
+    width: 292px; */
+/* } */
+
+.formlist {
+    margin-bottom: 5px;
+}
+
+#name {
+    width: 40%;
+    padding-left: 3px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#Email {
+    padding-left: 3px;
+    width: 40%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#Message {
+    padding-left: 3px;
+    width: 40%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.btn1 {
+    margin: 6px;
+    width: 58px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.footer {
+    margin-top: 10px;
+    background: black;
+    color: white;
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+}
